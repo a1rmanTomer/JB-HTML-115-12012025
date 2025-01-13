@@ -47,10 +47,46 @@ body {
   gap: 1rem;
 }
 
+.nav-buttons a,
+.nav-buttons span,
+.nav-buttons input {
+  font-weight: 450;
+}
+
+.theme-btn {
+  background-color: beige;
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+}
+.theme-btn span {
+  color: #1e1e1e;
+}
+
 .theme-btn i {
   background-color: #1e1e1e;
   border: #1e1e1e solid 2px;
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-buttons input {
+  max-width: 6rem;
+  height: 1.5rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  border-style: none;
+}
+
+.nav-btn-signup {
+  background-color: azure;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.nav-btn-signup span {
+  color: #1e1e1e;
+  font-weight: 700;
 }
 
 .sec-nav {
