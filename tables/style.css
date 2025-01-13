@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  width: 100dvw;
+  box-sizing: border-box;
+  background-color: #fff56f;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+}
+
+/* sizing */
+
+img {
+  height: 3rem;
+  aspect-ratio: 16 / 9;
+}
+
+table {
+  background-color: black;
+  width: 65dvw;
+  text-align: center;
+}
+
+th {
+  background-color: darkgray;
+}
+
+td {
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+td,
+th {
+  padding: 0.5rem;
+}
