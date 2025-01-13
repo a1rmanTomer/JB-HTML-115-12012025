@@ -27,7 +27,7 @@ body {
   top: 0;
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
   height: 4rem;
   padding: 0 8rem;
   background-color: #800000;
@@ -37,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 3dvw;
 }
 
 .nav-buttons {
@@ -105,20 +105,36 @@ body {
 
 /* hero */
 .hero {
-  position: fixed;
-  top: 6.25rem;
-  width: 100dvw;
-  height: calc(100svh - calc(5.25rem + 4px));
+  z-index: -1;
+  position: relative;
+  top: 6.3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0rem 8rem;
   background-color: lime;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.side-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 1rem 2.5rem;
+  width: 8rem;
+  background-color: blue;
+  height: inherit;
 }
 
 /* footer */
 footer {
+  background-color: #3b0000;
+  bottom: 0;
   position: sticky;
-  background-color: #490000;
-  top: 100dvh;
-  width: 100dvw;
   height: 5rem;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
