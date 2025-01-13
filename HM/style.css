@@ -16,6 +16,7 @@ body {
   background-color: #1b1b1b;
 }
 
+/* nav-bar */
 .navbar {
   position: fixed;
   width: 100dvw;
@@ -29,7 +30,7 @@ body {
   gap: 4rem;
   height: 4rem;
   padding: 0 8rem;
-  background-color: brown;
+  background-color: #800000;
 }
 
 .nav-links {
@@ -100,4 +101,25 @@ body {
   background-color: #313131;
   border-top: #acacac 2px solid;
   border-bottom: #acacac 2px solid;
+}
+
+/* hero */
+.hero {
+  position: fixed;
+  top: 6.25rem;
+  width: 100dvw;
+  height: calc(100svh - calc(5.25rem + 4px));
+  background-color: lime;
+}
+
+/* footer */
+footer {
+  position: sticky;
+  background-color: #490000;
+  top: 100dvh;
+  width: 100dvw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
