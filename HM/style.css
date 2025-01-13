@@ -26,10 +26,9 @@ body {
   top: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 3rem;
+  gap: 4rem;
   height: 4rem;
-  padding: 0.25rem 8rem;
+  padding: 0 8rem;
   background-color: brown;
 }
 
@@ -41,6 +40,8 @@ body {
 }
 
 .nav-buttons {
+  position: absolute;
+  right: 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,7 +95,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.6rem 8rem;
+  height: 2.25rem;
+  padding: 0 8rem;
   background-color: #313131;
   border-top: #acacac 2px solid;
   border-bottom: #acacac 2px solid;
