@@ -10,6 +10,13 @@
   font-family: "Roboto", "Heebo";
 }
 
+code {
+  color: #360000;
+  background-color: #991212;
+  padding: 0.1rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
 body {
   min-height: 100dvh;
   width: 100dvw;
@@ -74,12 +81,13 @@ body {
   justify-content: center;
 }
 
-.nav-buttons input {
+.nav-buttons input,
+td input {
   max-width: 6rem;
   height: 1.5rem;
   padding: 1rem 1rem;
   border-radius: 1rem;
-  border-style: none;
+  border: 2px solid black;
 }
 
 .nav-btn-signup {
@@ -115,10 +123,15 @@ body {
   justify-content: flex-start;
   gap: 7dvw;
   padding: 0 8rem;
-  background-color: lime;
+  background-color: #1b1b1b;
   height: fit-content;
   width: 100dvw;
   margin-bottom: 5rem;
+}
+
+.side-bar,
+.right-progress {
+  border: #acacac 3px solid;
 }
 
 .side-bar {
@@ -131,14 +144,26 @@ body {
   gap: 5dvh;
   padding: 1rem 2.5rem;
   width: 8rem;
-  background-color: blue;
+  background-color: azure;
   height: inherit;
 }
 
+.side-bar *,
+.right-progress * {
+  color: #171717;
+}
+
 .main-center {
-  padding: 1rem;
-  background-color: red;
+  padding: 3rem 1rem;
+  background-color: #171717;
   width: 55dvw;
+  min-height: calc(100dvh - 10rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-x: hidden;
 }
 
 .right-progress {
@@ -154,6 +179,30 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 2dvh;
+}
+
+/* table */
+.main-table {
+  background-color: azure;
+  width: 800px;
+}
+
+.main-table thead {
+  background-color: #001e39;
+}
+
+.main-table tbody {
+  background-color: #556283;
+}
+
+.main-table td {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.main-table a,
+.main-table a:visited {
+  color: red;
 }
 
 /* footer */
