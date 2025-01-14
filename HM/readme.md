@@ -6,6 +6,7 @@
 2. Create a Table with the following columns: Name, Type, Dairy ( Yes/No) Price, Image,
 3. Insert 10 rows of data
 
+
 # Homework 12-1-2025
 
 1. Visit the following Page: https://developer.mozilla.org/en-US/docs/Web/HTML
