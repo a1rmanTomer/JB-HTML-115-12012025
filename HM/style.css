@@ -132,6 +132,12 @@ td input {
 .side-bar,
 .right-progress {
   border: #acacac 3px solid;
+  border-radius: 0.25rem;
+  padding: 1rem 2.5rem;
+  min-width: 12rem;
+  width: fit-content;
+  min-height: 17rem;
+  height: fit-content;
 }
 
 .side-bar {
@@ -142,10 +148,32 @@ td input {
   justify-content: flex-start;
   flex-direction: column;
   gap: 5dvh;
-  padding: 1rem 2.5rem;
-  width: 8rem;
   background-color: azure;
-  height: inherit;
+}
+
+.left-h1 {
+  padding: 0.5rem 1rem;
+  background-color: hsla(208, 100%, 11%, 0.443);
+  border-left: #001e39 0.25rem solid;
+  border-radius: 0.45rem;
+}
+
+li {
+  list-style: none;
+  font-size: larger;
+}
+
+li::before {
+  content: "";
+  border-color: transparent #111;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
 }
 
 .side-bar *,
@@ -170,9 +198,6 @@ td input {
   position: sticky;
   top: 50dvh;
   transform: translateY(-50%);
-  width: 8rem;
-  min-height: 10rem;
-  height: fit-content;
   background-color: gray;
   display: flex;
   align-items: center;
