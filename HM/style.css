@@ -146,6 +146,14 @@ td input {
   height: fit-content;
 }
 
+.side-bar a,
+.right-progress a,
+.side-bar a:visited,
+.right-progress a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 .side-bar {
   position: sticky;
   top: 7rem;
