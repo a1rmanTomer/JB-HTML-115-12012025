@@ -10,6 +10,12 @@
   font-family: "Roboto", "Heebo";
 }
 
+a,
+a:visited {
+  text-decoration: underline;
+  color: red;
+}
+
 code {
   color: #360000;
   background-color: #991212;
@@ -121,7 +127,7 @@ td input {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 7dvw;
+  gap: 3dvw;
   padding: 0 8rem;
   background-color: #1b1b1b;
   height: fit-content;
@@ -182,16 +188,17 @@ li::before {
 }
 
 .main-center {
-  padding: 3rem 1rem;
+  padding: 3rem 0.8rem;
   background-color: #171717;
   width: 55dvw;
-  min-height: calc(100dvh - 10rem);
+  min-height: calc(100dvh - 12rem);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
   gap: 2rem;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 .right-progress {
